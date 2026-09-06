@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Buffalo Male Entertainment Guide</title>
+<meta name="description" content="About this site — an independent, unofficial directory and fan guide to male entertainment in the Buffalo, NY area.">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#1B1420;
+    --ink-soft:#2A1F2C;
+    --wine:#5C1A2B;
+    --gold:#C9A227;
+    --gold-soft:#E4C765;
+    --cream:#F1E9DD;
+    --rose:#8C5E68;
+    --rule: rgba(241,233,221,0.14);
+  }
+
+  body{
+    background: var(--ink);
+    color: var(--cream);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+
+  h1,h2,h3,.display-font{
+    font-family: 'Playfair Display', serif;
+  }
+
+  a{ color: var(--gold-soft); }
+  a:hover{ color: var(--gold); }
+
+  .container-narrow{
+    max-width: 760px;
+  }
+
+  /* NAV */
+  .site-nav{
+    background: var(--ink);
+    border-bottom: 1px solid var(--rule);
+  }
+  .site-nav .navbar-brand{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.35rem;
+    letter-spacing: 0.02em;
+    color: var(--cream);
+  }
+  .site-nav .nav-link{
+    color: var(--rose);
+    font-size: 0.95rem;
+  }
+  .site-nav .nav-link:hover{ color: var(--gold-soft); }
+
+  /* PAGE HEADER */
+  .page-header{
+    padding: 5.5rem 0 3.5rem;
+    background:
+      radial-gradient(ellipse at 15% 20%, rgba(92,26,43,0.55), transparent 55%),
+      radial-gradient(ellipse at 85% 0%, rgba(201,162,39,0.12), transparent 45%),
+      var(--ink);
+    border-bottom: 1px solid var(--rule);
+  }
+  .page-header h1{
+    font-size: clamp(2.1rem, 4.5vw, 3rem);
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+  }
+  .page-header p{
+    color: var(--rose);
+    font-size: 1.1rem;
+    max-width: 52ch;
+    line-height: 1.6;
+  }
+
+  /* ABOUT BODY */
+  .about-body{
+    padding: 4.5rem 0;
+  }
+  .about-body h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2.4rem;
+    margin-bottom: 0.9rem;
+  }
+  .about-body h2:first-child{ margin-top: 0; }
+  .about-body p{
+    color: var(--rose);
+    line-height: 1.75;
+    margin-bottom: 1.1rem;
+  }
+  .about-body strong{ color: var(--cream); }
+
+  .callout-box{
+    background: var(--ink-soft);
+    border: 1px solid rgba(201,162,39,0.3);
+    padding: 1.6rem 1.8rem;
+    margin: 2rem 0;
+  }
+  .callout-box p{
+    color: var(--gold-soft);
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  /* FOOTER */
+  footer{
+    border-top: 1px solid var(--rule);
+    padding: 2.8rem 0 2.2rem;
+  }
+  footer p{
+    color: var(--rose);
+    font-size: 0.85rem;
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+  }
+  .disclaimer-box{
+    background: var(--ink-soft);
+    border: 1px solid var(--rule);
+    padding: 1.4rem 1.6rem;
+    margin-bottom: 1.8rem;
+    font-size: 0.83rem;
+    color: var(--rose);
+    line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md site-nav py-3">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Buffalo Male Entertainment Guide</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" style="border-color: var(--rule);">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMain">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <h1>An independent guide, not an official site</h1>
+    <p>What this page is, who runs it, and why it exists.</p>
+  </div>
+</header>
+
+<section class="about-body">
+  <div class="container container-narrow">
+
+    <h2>What this site is</h2>
+    <p>Buffalo Male Entertainment Guide is a fan-style, independently run directory covering male exotic entertainment in the Buffalo, NY area. Think of it as a local guide built by enthusiasts of the scene — booking tips, event ideas, and a running list of independent entertainers worth knowing about.</p>
+
+    <h2>What this site isn't</h2>
+    <p>This is <strong>not</strong> an official site for any performer, agency, club, or venue. We aren't a booking agency ourselves, we don't take deposits, and we aren't authorized to speak on behalf of anyone listed here. Every entertainer that appears on this site runs their own independent business.</p>
+
+    <div class="callout-box">
+      <p><strong>In short:</strong> we're fans of the local entertainment scene who built a directory to make it easier to find independent performers and know what to expect before booking. Nothing on this site should be read as an endorsement, partnership, or official statement from any listed entertainer.</p>
+    </div>
+
+    <h2>Why we built it</h2>
+    <p>Buffalo has a real, active independent entertainment scene, but it's scattered across social media, word of mouth, and one-off websites. This guide pulls that together in one place — practical booking advice up front, and an easy way to browse independent options at the bottom.</p>
+
+    <h2>How the directory works</h2>
+    <p>Entertainers on this site are listed independently and don't pay for placement. If you're an independent performer in the Buffalo area and want to be added, updated, or removed from the directory, reach out and we'll take care of it.</p>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container container-narrow">
+    <div class="disclaimer-box">
+      <strong>Disclaimer:</strong> This site is an independent, unofficial guide to male entertainment booking in the Buffalo, NY area. It is not affiliated with, endorsed by, or operated on behalf of any performer, agency, or venue named or listed on this site. All entertainer listings are provided for informational purposes; verify details directly with each performer before booking.
+    </div>
+    <p>&copy; 2026 Buffalo Male Entertainment Guide. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
